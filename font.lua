@@ -43,7 +43,16 @@ local function _font(mode, text)
 end
 
 function font(text)
-	args = utils.getargs(text)
-	return _font(args[1], args[2])
+	local args = utils.getargs(text)
+	
+	if args[1] == 'list' then
+		local list = ''
+		for n, t in pairs(fonts) do
+			list = list .. _font(n, n)  .. '\n'
+		end
+		return list
+	else
+		return _font(args[1], args[2])
+	end
 end
--- module by @vreply
+--module by @vreply
