@@ -1,1 +1,1 @@
-Modules for Inline (https://github.com/dmitrijkotov634/Inline)
+Modules for Inline https://github.com/dmitrijkotov634/Inline
