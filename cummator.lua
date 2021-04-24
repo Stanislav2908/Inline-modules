@@ -1,4 +1,4 @@
-﻿local cumwords = {"кам","кон","кум","кан","ком"}
+﻿local cumwords = {"cum","cum","cum","cum","cum"}
 local apps = inline.db.getstringset("cummator", {})
 
 function _find(array, e)
@@ -34,4 +34,4 @@ function cumon()
 end
 
 inline.watchers.cum = cummator
--- module by @vreply and @soovu
+-- module by @vreply
