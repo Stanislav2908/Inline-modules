@@ -1,4 +1,4 @@
-﻿local cumwords = {"cum","cum","cum","cum","cum"}
+﻿local cumwords = {"кам","кон","кум","кан","ком"}
 local apps = inline.db.getstringset("cummator", {})
 
 function _find(array, e)
